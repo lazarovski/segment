@@ -1,0 +1,25 @@
+.topnav {
+    border-bottom: 2px solid var(--primary-color);
+    background-color: white;
+}
+
+.topnav__content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: var(--pa-20);
+}
+
+.topnav__content a {
+    font-size: var(--text-large);
+    cursor: pointer;
+    font-weight: 400;
+    color: var(--primary-color);
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.topnav__content a:hover {
+    font-weight: bolder;
+}

@@ -1,0 +1,4 @@
+.products {
+    background-color: var(--accent-color);
+    padding: var(--pa-20);
+}

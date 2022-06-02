@@ -1,0 +1,5 @@
+.about {
+  background-color: white;
+  color: var(--primary-color);
+  padding: var(--pa-20);
+}

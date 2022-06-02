@@ -1,0 +1,62 @@
+:root {
+  /* color */
+  /* --primary-color: #2a2368; */
+  --primary-color: indigo;
+  --secondary-color: #7e21d4;
+  --tertiary-color: #a8a8f0;
+  --accent-color: #c9bffa45;
+
+  /* font size */
+  --text-small: small;
+  --text-medium: medium;
+  --text-large: large;
+  --text-x-large: x-large;
+  --text-xx-large: xx-large;
+
+  /* padding */
+  --pa-20: 20px;
+
+  /* round */
+  --round-10: 10px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: var(--text-medium);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  /* font-family: Verdana, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.round {
+  border-radius: 10px;
+}
+
+/* text */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-large {
+  font-size: var(--text-large);
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+/* padding */
+.pa-20 {
+  padding: 20px;
+}

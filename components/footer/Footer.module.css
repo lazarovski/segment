@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #360762;
+  color: whitesmoke;
+  /* background: #382e8c; */
+}
+
+.footer__icons a {
+  margin: 10px;
+  color: inherit;
+}
+
+.footer__icons a:hover {
+  color: black;
+}

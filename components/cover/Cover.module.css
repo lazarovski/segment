@@ -1,0 +1,36 @@
+.cover {
+    background-image: url("../../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+
+.cover__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.cover__content__text {
+    max-width: 50%;
+    background-color: var(--primary-color);
+    color: white;
+    padding: var(--pa-20);
+    border-radius: var(--round-10);
+}
+
+@media screen and (max-width: 992px) {
+    .cover__content__text {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__content__text {
+        max-width: 90%;
+    }
+}
