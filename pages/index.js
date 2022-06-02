@@ -1,8 +1,8 @@
 import Meta from '../components/Meta';
 import Cover from '../components/cover/';
 import ProductList from '../components/products/ProductList.js';
-import About from '../components/About/';
-import Contact from '../components/Contact/';
+import About from '../components/about/';
+import Contact from '../components/contact/';
 import Footer from '../components/footer/';
 import ScrollTop from '../components/scrollTop/';
 
