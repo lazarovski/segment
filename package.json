@@ -2,11 +2,14 @@
   "name": "segment",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lazarovski.github.io/segment",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "next build && next export",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -20,6 +23,7 @@
   },
   "devDependencies": {
     "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "gh-pages": "^4.0.0"
   }
 }
