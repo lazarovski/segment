@@ -8,7 +8,7 @@ export default function Cover() {
     return <div className={styles.cover}>
         <div className={styles.cover__content}>
             <div className={`${styles.cover__content__text}`}>
-                <Heading Tag="h1" color="white">{t('shared.siteName')}</Heading>
+                <Heading Tag="h1" color="white">{t('Shared.siteName')}</Heading>
                 <p>{t('Cover.message')}</p>
             </div>
         </div>

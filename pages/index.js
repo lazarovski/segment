@@ -5,12 +5,14 @@ import About from '../components/about/';
 import Contact from '../components/contact/';
 import Footer from '../components/footer/';
 import ScrollTop from '../components/scrollTop/';
+import { useTranslations } from 'next-intl';
 
 export default function Home() {
+  const t = useTranslations('Shared');
 
   return (
     <>
-      <Meta />
+      <Meta title={t('siteName')} description={t('slogan')} />
       <Cover />
       <ProductList />
       <About />

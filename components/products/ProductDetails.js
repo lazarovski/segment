@@ -9,7 +9,7 @@ import P1 from '../../images/products/p1.jpg';
 import { useTranslations } from 'next-intl';
 
 export default function ProductDetails({ name, image, text, close }) {
-    const t = useTranslations("shared");
+    const t = useTranslations("Shared");
 
     return (
         <Modal className="round">

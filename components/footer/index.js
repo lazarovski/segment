@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 
 export default function Footer() {
     const year = new Date().getFullYear();
-    const t = useTranslations('shared');
+    const t = useTranslations('Shared');
 
     return <div className={styles.footer}>
         <div className={styles.footer__icons}>
