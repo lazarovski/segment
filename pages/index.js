@@ -1,15 +1,15 @@
 import Meta from '../components/Meta';
 import Cover from '../components/cover/';
-import ProductList from '../components/products/ProductList.js';
+import ProductList from '../components/products/ProductList';
 import About from '../components/about/';
 import Contact from '../components/contact/';
 import Footer from '../components/footer/';
 import ScrollTop from '../components/scrollTop/';
 
-export default function Home(props) {
+export default function Home() {
 
   return (
-    <div>
+    <>
       <Meta />
       <Cover />
       <ProductList />
@@ -17,7 +17,7 @@ export default function Home(props) {
       <Contact />
       <Footer />
       <ScrollTop />
-    </div>
+    </>
   )
 }
 

@@ -1,6 +1,6 @@
-import Topnav from "./Topnav.js";
-import Sidenav from "./Sidenav.js";
-import useToggle from "../../hooks/useToggle.js";
+import Topnav from "./Topnav";
+import Sidenav from "./Sidenav";
+import useToggle from "../../hooks/useToggle";
 
 export default function Navbar() {
     const [toggle, handleToggle] = useToggle(false);

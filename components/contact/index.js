@@ -1,7 +1,7 @@
 import styles from "./Contact.module.css";
 import Heading from '../shared/heading';
-import FlexContainer from '../shared/flex/FlexContainer.js';
-import FlexItem from '../shared/flex/FlexItem.js';
+import FlexContainer from '../shared/flex/FlexContainer';
+import FlexItem from '../shared/flex/FlexItem';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { useTranslations } from 'next-intl';

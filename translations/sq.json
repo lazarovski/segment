@@ -17,5 +17,8 @@
     "Products": {
         "title": "Produktet",
         "more": "Lexo më shumë"
+    },
+    "404": {
+        "message": "Duket se nuk mund ta gjejmë faqen që po kërkoni."
     }
 }

@@ -1,5 +1,5 @@
 import Button from "../shared/button";
-import useEvent from "../../hooks/useEvent.js";
+import useEvent from "../../hooks/useEvent";
 import styles from "./ScrollTop.module.css";
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

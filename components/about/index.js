@@ -1,7 +1,7 @@
 import styles from "./About.module.css";
 import Heading from '../shared/heading/';
-import FlexContainer from '../shared/flex/FlexContainer.js';
-import FlexItem from '../shared/flex/FlexItem.js';
+import FlexContainer from '../shared/flex/FlexContainer';
+import FlexItem from '../shared/flex/FlexItem';
 import { useTranslations } from 'next-intl';
 
 export default function About() {
